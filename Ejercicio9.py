@@ -4,7 +4,7 @@ años= int (input('Introduzca el número de años que quiere que dure su inersi�
 
 while años>0  :
     capital=(cantidad+((interes*cantidad)/100))
-    print('Su capital obtenido en el año',años,'es de:',capital)
     cantidad=capital
     años=años-1
     
+print('Su capital obtenido en esta inversión es de','{:.2}'.format(cantidad),'euros')
