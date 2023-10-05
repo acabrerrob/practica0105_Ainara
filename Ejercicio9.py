@@ -7,4 +7,4 @@ while años>0  :
     cantidad=capital
     años=años-1
     
-print('Su capital obtenido en esta inversión es de','{:.2}'.format(cantidad),'euros')
+print('Su capital obtenido en esta inversión es de',round(cantidad,2),'euros')
