@@ -1,3 +1,3 @@
-Nombre=input('¿Cual es tu nombre?')
+Nombre=input('¿Cual es tu nombre? ')
 
-print('¡ Hola',Nombre,'!')
+print('¡ Hola ',Nombre,'!')
